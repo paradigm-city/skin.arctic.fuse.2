@@ -20,6 +20,7 @@
                 <param name="landscape_visible">!Skin.HasSetting(OSD.InfoOverlay.DisableLandscapeOnInfo)</param>
                 <param name="plot_visible">!Skin.HasSetting(OSD.InfoOverlay.DisablePlotRatingsOnInfo)</param>
             </include>
+            <include>OSD_Clock</include>
         </control>
 
     </controls>

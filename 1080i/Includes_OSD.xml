@@ -567,14 +567,14 @@
 
                 <!-- Ends (Video) -->
                 <include content="Info_Line_Item">
-                    <param name="label">$INFO[Player.FinishTime,$LOCALIZE[31184] ,]$INFO[System.Time, ($LOCALIZE[19030] ,)]</param>
+                    <param name="label">$INFO[Player.FinishTime,$LOCALIZE[31184] ,]</param>
                     <param name="visible">!String.IsEmpty(Player.FinishTime) + !Pvr.IsPlayingTv</param>
                     <param name="textcolor">panel_fg_70</param>
                 </include>
 
                 <!-- Ends (PVR) -->
                 <include content="Info_Line_Item">
-                    <param name="label">$INFO[PVR.EpgEventFinishTime,$LOCALIZE[31184] ,]$INFO[System.Time, ($LOCALIZE[19030] ,)]</param>
+                    <param name="label">$INFO[PVR.EpgEventFinishTime,$LOCALIZE[31184] ,]</param>
                     <param name="visible">!String.IsEmpty(PVR.EpgEventFinishTime) + Pvr.IsPlayingTv</param>
                     <param name="textcolor">panel_fg_70</param>
                 </include>
@@ -1340,6 +1340,31 @@
             </control>
         </definition>
     </include>
+
+    <include name="OSD_Clock">
+        <param name="textcolor">panel_fg_100</param>
+        <param name="font">font_main_bold</param>
+        <definition>
+            <control type="group">
+                <visible>Window.IsActive(VideoFullScreen.xml)</visible>
+                <include>Dimension_Topbar</include>
+                <control type="group">
+                    <include>Dimension_Furniture_Gutters</include>
+                    <control type="label">
+                        <label>$INFO[System.Time]</label>
+                        <font>$PARAM[font]</font>
+                        <textcolor>$PARAM[textcolor]</textcolor>
+                        <shadowcolor>shadow_full</shadowcolor>
+                        <align>right</align>
+                        <aligny>center</aligny>
+                        <height>40</height>
+                        <centertop>50%</centertop>
+                    </control>
+                </control>
+            </control>
+        </definition>
+    </include>
+
 </includes>
 
 

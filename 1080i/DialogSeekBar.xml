@@ -48,6 +48,8 @@
                 <param name="label">$LOCALIZE[31346]</param>
                 <param name="visible">Window.IsActive(musicosd) + !Window.IsVisible(1142) + !Window.IsVisible(script-cu-lrclyrics-main.xml)</param>
             </include>
+
+            <include>OSD_Clock</include>
         </control>
 
     </controls>
