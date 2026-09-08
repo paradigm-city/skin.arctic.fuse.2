@@ -23,7 +23,7 @@
             <font>
                 <name>font_infotag_bold</name>
                 <filename>LeagueSpartan-ExtraBold.ttf</filename>
-                <size>22</size>
+                <size>18</size>
                 <style>uppercase</style>
             </font>
 
@@ -31,51 +31,51 @@
             <font>
                 <name>font_midi_iconic</name>
                 <filename>fa-solid-900.ttf</filename>
-                <size>34</size>
+                <size>27</size>
             </font>
             <font>
                 <name>font_main_iconic</name>
                 <filename>fa-solid-900.ttf</filename>
-                <size>30</size>
+                <size>24</size>
             </font>
             <font>
                 <name>font_mini_iconic</name>
                 <filename>fa-solid-900.ttf</filename>
-                <size>26</size>
+                <size>21</size>
             </font>
             <font>
                 <name>font_tiny_iconic</name>
                 <filename>fa-solid-900.ttf</filename>
-                <size>22</size>
+                <size>18</size>
             </font>
             <font>
                 <name>font_hint_iconic</name>
                 <filename>fa-solid-900.ttf</filename>
-                <size>16</size>
+                <size>13</size>
             </font>
             <font>
                 <name>font_itsy_iconic</name>
                 <filename>fa-solid-900.ttf</filename>
-                <size>12</size>
+                <size>10</size>
             </font>
 
             <!-- Kodi Logo Font -->
             <font>
                 <name>font_logo</name>
                 <filename>Questrial-Regular.ttf</filename>
-                <size>24</size>
+                <size>19</size>
             </font>
             <font>
                 <name>font_logo_large</name>
                 <filename>Questrial-Regular.ttf</filename>
-                <size>44</size>
+                <size>35</size>
             </font>
 
             <!-- Testing Fonts -->
             <font>
                 <name>font_debug</name>
                 <filename>CommitMono-400-Regular.ttf</filename>
-                <size>22</size>
+                <size>18</size>
                 <aspect>$PARAM[aspect_system]</aspect>
             </font>
 
@@ -84,49 +84,49 @@
                 <name>font_musicvis_biggest</name>
                 <filename>$PARAM[font_light]</filename>
                 <style>$PARAM[style_light]</style>
-                <size>230</size>
+                <size>184</size>
             </font>
             <font>
                 <name>font_musicvis_bigger</name>
                 <filename>$PARAM[font_light]</filename>
                 <style>$PARAM[style_light]</style>
-                <size>130</size>
+                <size>104</size>
             </font>
             <font>
                 <name>font_musicvis_big</name>
                 <filename>$PARAM[font_light]</filename>
                 <style>$PARAM[style_light]</style>
-                <size>80</size>
+                <size>64</size>
             </font>
 
             <font>
                 <name>font_title_main_test</name>
                 <filename>RobotoCondensed-Bold.ttf</filename>
-                <size>60</size>
+                <size>48</size>
                 <linespacing>1.146</linespacing>
             </font>
             <font>
                 <name>font_midi_plot_test</name>
                 <filename>RobotoCondensed-Regular.ttf</filename>
-                <size>34</size>
+                <size>27</size>
                 <linespacing>1.46</linespacing>
             </font>
             <font>
                 <name>font_main_plot_test</name>
                 <filename>RobotoCondensed-Regular.ttf</filename>
-                <size>30</size>
+                <size>24</size>
                 <linespacing>1.135</linespacing>
             </font>
             <font>
                 <name>font_mini_plot_test</name>
                 <filename>RobotoCondensed-Regular.ttf</filename>
-                <size>26</size>
+                <size>21</size>
                 <linespacing>1.24</linespacing>
             </font>
             <font>
                 <name>font_tiny_plot_test</name>
                 <filename>RobotoCondensed-Regular.ttf</filename>
-                <size>23</size>
+                <size>18</size>
                 <linespacing>1.1</linespacing>
             </font>
         </definition>
@@ -141,38 +141,38 @@
         <param name="style_light" />
 
         <!-- Hint -->
-        <param name="size_heavy_hint">17</param>
-        <param name="size_light_hint">17</param>
+        <param name="size_heavy_hint">14</param>
+        <param name="size_light_hint">14</param>
 
         <!-- Tiny -->
-        <param name="size_heavy_tiny">23</param>
-        <param name="size_light_tiny">23</param>
+        <param name="size_heavy_tiny">18</param>
+        <param name="size_light_tiny">18</param>
 
         <!-- Mini -->
-        <param name="size_heavy_mini">26</param>
-        <param name="size_light_mini">26</param>
+        <param name="size_heavy_mini">21</param>
+        <param name="size_light_mini">21</param>
 
         <!-- Main -->
-        <param name="size_heavy_main">30</param>
-        <param name="size_light_main">30</param>
-        <param name="size_heavy_main_x2">60</param>
-        <param name="size_light_main_x2">60</param>
+        <param name="size_heavy_main">24</param>
+        <param name="size_light_main">24</param>
+        <param name="size_heavy_main_x2">48</param>
+        <param name="size_light_main_x2">48</param>
 
         <!-- Midi -->
-        <param name="size_heavy_midi">34</param>
-        <param name="size_light_midi">34</param>
-        <param name="size_heavy_midi_x2">68</param>
-        <param name="size_light_midi_x2">68</param>
+        <param name="size_heavy_midi">27</param>
+        <param name="size_light_midi">27</param>
+        <param name="size_heavy_midi_x2">54</param>
+        <param name="size_light_midi_x2">54</param>
 
         <!-- Head -->
-        <param name="size_heavy_head">40</param>
-        <param name="size_light_head">40</param>
+        <param name="size_heavy_head">32</param>
+        <param name="size_light_head">32</param>
 
         <!-- Huge -->
-        <param name="size_heavy_huge">45</param>
-        <param name="size_light_huge">45</param>
-        <param name="size_heavy_huge_x2">90</param>
-        <param name="size_light_huge_x2">90</param>
+        <param name="size_heavy_huge">36</param>
+        <param name="size_light_huge">36</param>
+        <param name="size_heavy_huge_x2">72</param>
+        <param name="size_light_huge_x2">72</param>
 
         <!-- Linespacing -->
         <param name="plot_linespacing_head">1.146</param>
@@ -378,38 +378,38 @@
                 <param name="style_light">$PARAM[style_light]</param>
 
                 <!-- Hint -->
-                <param name="size_heavy_hint">15</param>
-                <param name="size_light_hint">15</param>
+                <param name="size_heavy_hint">12</param>
+                <param name="size_light_hint">12</param>
 
                 <!-- Tiny -->
-                <param name="size_heavy_tiny">21</param>
-                <param name="size_light_tiny">21</param>
+                <param name="size_heavy_tiny">17</param>
+                <param name="size_light_tiny">17</param>
 
                 <!-- Mini -->
-                <param name="size_heavy_mini">24</param>
-                <param name="size_light_mini">24</param>
+                <param name="size_heavy_mini">19</param>
+                <param name="size_light_mini">19</param>
 
                 <!-- Main -->
-                <param name="size_heavy_main">28</param>
-                <param name="size_light_main">28</param>
-                <param name="size_heavy_main_x2">56</param>
-                <param name="size_light_main_x2">56</param>
+                <param name="size_heavy_main">22</param>
+                <param name="size_light_main">22</param>
+                <param name="size_heavy_main_x2">45</param>
+                <param name="size_light_main_x2">45</param>
 
                 <!-- Midi -->
-                <param name="size_heavy_midi">32</param>
-                <param name="size_light_midi">32</param>
-                <param name="size_heavy_midi_x2">64</param>
-                <param name="size_light_midi_x2">64</param>
+                <param name="size_heavy_midi">26</param>
+                <param name="size_light_midi">26</param>
+                <param name="size_heavy_midi_x2">51</param>
+                <param name="size_light_midi_x2">51</param>
 
                 <!-- Head -->
-                <param name="size_heavy_head">38</param>
-                <param name="size_light_head">38</param>
+                <param name="size_heavy_head">30</param>
+                <param name="size_light_head">30</param>
 
                 <!-- Huge -->
-                <param name="size_heavy_huge">43</param>
-                <param name="size_light_huge">43</param>
-                <param name="size_heavy_huge_x2">86</param>
-                <param name="size_light_huge_x2">86</param>
+                <param name="size_heavy_huge">34</param>
+                <param name="size_light_huge">34</param>
+                <param name="size_heavy_huge_x2">69</param>
+                <param name="size_light_huge_x2">69</param>
             </include>
         </definition>
     </include>

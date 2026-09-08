@@ -58,38 +58,38 @@
             <param name="font_light">Heebo-Light.ttf</param>
 
             <!-- Hint -->
-            <param name="size_heavy_hint">15</param>
-            <param name="size_light_hint">15</param>
+            <param name="size_heavy_hint">12</param>
+            <param name="size_light_hint">12</param>
 
             <!-- Tiny -->
-            <param name="size_heavy_tiny">21</param>
-            <param name="size_light_tiny">21</param>
+            <param name="size_heavy_tiny">17</param>
+            <param name="size_light_tiny">17</param>
 
             <!-- Mini -->
-            <param name="size_heavy_mini">24</param>
-            <param name="size_light_mini">24</param>
+            <param name="size_heavy_mini">19</param>
+            <param name="size_light_mini">19</param>
 
             <!-- Main -->
-            <param name="size_heavy_main">27</param>
-            <param name="size_light_main">27</param>
-            <param name="size_heavy_main_x2">54</param>
-            <param name="size_light_main_x2">54</param>
+            <param name="size_heavy_main">22</param>
+            <param name="size_light_main">22</param>
+            <param name="size_heavy_main_x2">43</param>
+            <param name="size_light_main_x2">43</param>
 
             <!-- Midi -->
-            <param name="size_heavy_midi">31</param>
-            <param name="size_light_midi">31</param>
-            <param name="size_heavy_midi_x2">62</param>
-            <param name="size_light_midi_x2">62</param>
+            <param name="size_heavy_midi">25</param>
+            <param name="size_light_midi">25</param>
+            <param name="size_heavy_midi_x2">50</param>
+            <param name="size_light_midi_x2">50</param>
 
             <!-- Head -->
-            <param name="size_heavy_head">37</param>
-            <param name="size_light_head">37</param>
+            <param name="size_heavy_head">30</param>
+            <param name="size_light_head">30</param>
 
             <!-- Huge -->
-            <param name="size_heavy_huge">42</param>
-            <param name="size_light_huge">42</param>
-            <param name="size_heavy_huge_x2">84</param>
-            <param name="size_light_huge_x2">84</param>
+            <param name="size_heavy_huge">34</param>
+            <param name="size_light_huge">34</param>
+            <param name="size_heavy_huge_x2">67</param>
+            <param name="size_light_huge_x2">67</param>
 
             <!-- Linespacing -->
             <param name="plot_linespacing_head">1.028</param>

@@ -52,8 +52,8 @@
         <focusedcolor>$VAR[ColorSelected]</focusedcolor>
         <disabledcolor>main_fg_30</disabledcolor>
         <include>Texture_Button</include>
-        <colorwidth>84</colorwidth>
-        <colorheight>24</colorheight>
+        <colorwidth>67</colorwidth>
+        <colorheight>19</colorheight>
         <texturecolormask>buttons/colorpicker.png</texturecolormask>
         <texturecolordisabledmask colordiffuse="main_fg_30">buttons/colorpicker.png</texturecolordisabledmask>
         <pulseonselect>false</pulseonselect>
@@ -96,8 +96,8 @@
         <disabledcolor>main_fg_30</disabledcolor>
         <include>Texture_Button</include>
         <pulseonselect>false</pulseonselect>
-        <radiowidth>86</radiowidth>
-        <radioheight>28</radioheight>
+        <radiowidth>69</radiowidth>
+        <radioheight>22</radioheight>
         <texturenofocus/>
         <textureradioondisabled colordiffuse="main_fg_12">buttons/check-on.png</textureradioondisabled>
         <textureradiooffdisabled colordiffuse="main_fg_12">buttons/check-off.png</textureradiooffdisabled>
@@ -132,8 +132,8 @@
         <texturedownfocus colordiffuse="$VAR[ColorSelected]">buttons/triangle-down.png</texturedownfocus>
         <textureupdisabled flipy="true" colordiffuse="main_soft">buttons/triangle-down.png</textureupdisabled>
         <texturedowndisabled colordiffuse="main_soft">buttons/triangle-down.png</texturedowndisabled>
-        <spinwidth>30</spinwidth>
-        <spinheight>30</spinheight>
+        <spinwidth>24</spinwidth>
+        <spinheight>24</spinheight>
         <reverse>yes</reverse>
         <include>Defs_ScrollSuffix</include>
     </default>
@@ -154,8 +154,8 @@
         <textureupdisabled flipy="true" colordiffuse="main_soft">buttons/triangle-down.png</textureupdisabled>
         <texturedowndisabled colordiffuse="main_soft">buttons/triangle-down.png</texturedowndisabled>
         <reverse>yes</reverse>
-        <spinwidth>30</spinwidth>
-        <spinheight>30</spinheight>
+        <spinwidth>24</spinwidth>
+        <spinheight>24</spinheight>
         <include>Defs_ScrollSuffix</include>
     </default>
     <include name="defs_dialog_spincontrolex">
@@ -177,7 +177,7 @@
         <include>Texture_Button</include>
         <pulseonselect>false</pulseonselect>
         <sliderwidth>192</sliderwidth>
-        <sliderheight>12</sliderheight>
+        <sliderheight>10</sliderheight>
         <pulseonselect>false</pulseonselect>
         <texturesliderbar colordiffuse="main_soft" border="6">slider/slider_bg.png</texturesliderbar>
         <textureslidernib colordiffuse="main_hard" border="6">slider/slider_nib.png</textureslidernib>
@@ -486,6 +486,8 @@
         <definition>
             <height>80</height>
             <width>80</width>
+            <height>64</height>
+            <width>64</width>
             <include>Texture_Circle_Highlight_Focus_V</include>
             <texturenofocus colordiffuse="$PARAM[back_colordiffuse]">common/circle.png</texturenofocus>
             <include condition="$PARAM[autoclose]">Action_OSD_Button</include>
@@ -495,6 +497,7 @@
             <align>center</align>
             <aligny>top</aligny>
             <textoffsety>45</textoffsety>
+            <textoffsety>36</textoffsety>
             <textoffsetx>0</textoffsetx>
         </definition>
     </include>

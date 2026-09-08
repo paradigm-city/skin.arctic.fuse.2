@@ -34,6 +34,8 @@
                     <textcolor>panel_fg_90</textcolor>
                     <height>40</height>
                     <centerbottom>260</centerbottom>
+                    <height>32</height>
+                    <centerbottom>205</centerbottom>
                     <left>view_pad</left>
                     <include>OSD_HideControls</include>
                 </control>

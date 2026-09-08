@@ -88,6 +88,7 @@
         <param name="titlelabel">$VAR[Label_Title]</param>
         <param name="plotlabel">$VAR[Label_Plot]</param>
         <param name="indent">infodialog_left_w</param>
+        <param name="plotheight">160</param>
         <definition>
             <bottom>-40</bottom>
 
@@ -100,7 +101,7 @@
             <include content="Info_Panel" condition="!String.IsEqual(ListItem.Property(tmdb_type),person)">
                 <param name="titlelabel">$PARAM[titlelabel]</param>
                 <param name="plotlabel">$PARAM[plotlabel]</param>
-                <param name="plotheight">160</param>
+                <param name="plotheight">$PARAM[plotheight]</param>
                 <param name="plotwidth">$PARAM[plotwidth]</param>
                 <param name="mainlogo_visible">$PARAM[mainlogo_visible]</param>
                 <param name="mainlogo_texture">$PARAM[mainlogo_texture]</param>
@@ -1130,7 +1131,7 @@
     </include>
 
     <include name="DialogInfo_ExpandedButton">
-        <param name="icon_size">40</param>
+        <param name="icon_size">32</param>
         <param name="bordersize">-4</param>
         <param name="visible">true</param>
         <param name="vertical">true</param>
@@ -1233,7 +1234,7 @@
 
     <include name="DialogInfo_Button">
         <param name="back_size">160</param>
-        <param name="icon_size">40</param>
+        <param name="icon_size">32</param>
         <param name="bordersize">-4</param>
         <param name="itemgap">10</param>
         <param name="visible">true</param>

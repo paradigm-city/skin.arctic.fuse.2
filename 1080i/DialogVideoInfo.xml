@@ -48,11 +48,13 @@
                     <include content="DialogInfo_Info_Group" condition="![Skin.String(Info.Layout,Flix) + !String.IsEqual(ListItem.Property(tmdb_type),person)]">
                         <param name="extended_include">DialogInfo_VideoDetails</param>
                         <param name="plotwidth">90%</param>
+                        <param name="plotheight">192</param>
                     </include>
                     <include content="DialogInfo_Info_Group" condition="Skin.String(Info.Layout,Flix) + !String.IsEqual(ListItem.Property(tmdb_type),person)">
                         <param name="indent">view_pad</param>
                         <param name="extended_include">DialogInfo_VideoDetails</param>
                         <param name="plotwidth">info_plot_w</param>
+                        <param name="plotheight">192</param>
                     </include>
                 </control>
             </control>
