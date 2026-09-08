@@ -452,6 +452,26 @@
                     <onclick>Addon.OpenSettings($INFO[Container.PluginName])</onclick>
                 </include>
 
+                <!-- Playlist -->
+                <include content="DialogInfo_Button" condition="!Window.IsVisible(MyPlaylist.xml)">
+                    <param name="vertical">false</param>
+                    <param name="width">300</param>
+                    <param name="slice">100</param>
+                    <param name="label_pad">-15</param>
+                    <param name="id">8009</param>
+                    <param name="groupid">8109</param>
+                    <param name="sliceid">8209</param>
+                    <param name="label">$LOCALIZE[559]</param>
+                    <param name="icon">special://skin/extras/icons/playlist.png</param>
+                    <param name="itemgap">$PARAM[itemgap]</param>
+                    <param name="visible">[Window.IsVisible(videos) | Window.IsVisible(music)]</param>
+                    <param name="include_hintlabel">$PARAM[include_hintlabel]</param>
+                    <param name="include_customwidth">$PARAM[include_customwidth]</param>
+                    <hitrect x="0" y="0" w="0" h="0" />
+                    <onclick condition="Window.IsVisible(videos)">ActivateWindow(videoplaylist)</onclick>
+                    <onclick condition="Window.IsVisible(music)">ActivateWindow(musicplaylist)</onclick>
+                </include>
+
                 <!-- Shuffle -->
                 <include content="DialogInfo_Button"  condition="Window.IsVisible(MyPlaylist.xml)">
                     <param name="vertical">false</param>
